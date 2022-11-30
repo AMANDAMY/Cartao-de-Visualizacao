@@ -1,0 +1,137 @@
+*{MARGIN: 0; PADDING: 0;} /*-INICIA TODOS OS ELEMENTOS COM MARGIN 0 E PADDING 0 */
+
+/* DEFINIR AS PROPRIEDADES fundo da pagina */
+body {
+    background-color: whitesmoke;
+    background-attachment: fixed;
+    
+}  
+
+/* definir banner segundario*/     
+#banner{
+    position: absolute;
+    width: 88%;
+    height: 72%;}
+#banner img{
+    width: 100%; 
+    height: 100%;
+    margin: 150px 125px 150px 125px;
+    overflow: hidden;
+    box-shadow: 2px 30px 35px #dcdcdc;
+-webkit-box-shadow: 2px 30px 35px #dcdcdc;
+-moz-box-shadow: 2px 30px 35px #dcdcdc;
+}
+/*DECORAÇÃO CIMA*/
+
+#CIMA{
+    Position: absolute;
+    width: 100%;
+    height: 100%;
+} 
+#CIMA img{
+    width: 10%;
+    height: 20%;
+    margin: 0px 0px 0px 60px;
+}
+   
+/*DECORAÇÃO CIMA 2*/
+
+#CIMADD{
+    Position: absolute;
+    width: 100%;
+    height: 100%;
+} 
+#CIMADD img{
+    width: 7%;
+    height: 13%;
+}
+
+#rodape{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}
+#rodape img{
+ width: 10%;
+ height: 50%;
+  bottom: 0;
+  left: 0;
+  margin: 576px 0px 0px 0px;
+}
+
+   
+
+/*planer principal */
+.fundo{
+ background-color: white;
+ position: absolute;
+width: 35%;
+height: 50%;
+margin: 265px 2px 2px 725px;
+z-index: 5;
+display: flex;
+flex-direction: column;
+flex-wrap: wrap;
+justify-content: flex-start;
+align-items: flex-start;
+border-radius: 20px
+} 
+
+.produto{
+height: 100%;
+
+}
+
+.produto img{
+    width: auto;
+    max-height: 100%;
+    margin:0px 0px 125px 0px;
+    border-radius: 20px 0px 0px 20px;
+}
+
+.paragrafo1{
+    font-style: normal;
+    font-size: 15px;
+    color: rgb(151, 151, 151);
+    line-height: 1.4em;
+    letter-spacing: 10px;
+    word-break: normal;
+}
+.paragrafo2{
+    font-family: "fraunces";
+    font-style: normal;
+    font-weight: bold;
+    font-size: 50px;
+    color:hsl(212, 21%, 14%) ;
+    line-height: 0.9em;
+    word-break: normal;
+}
+.texto{
+    color: rgb(151, 151, 151);
+    font-size: 22px;
+    line-height: 1.4em;
+    word-spacing: 5px;
+}
+.valor{
+    font-family: "montserrat";
+    font-style: normal;
+    font-weight: bolder;
+    color: rgb(8, 104, 48);
+    font-size: 50px;
+    line-height: 100px;
+    word-spacing: 15px;
+}
+
+.bt{
+    background: rgb(8, 104, 48);
+    color: white;
+    border-radius: 10px;
+    border-style: ridge;
+    border-width: 3px;
+    border-color: #bebfc0;
+    height: 80px;
+    width: 400px;
+    text-shadow: 5px;
+    font-family: "montserrat";
+    font-size: 35px;
+    }
